@@ -1,0 +1,51 @@
+#my-custom-post-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#my-custom-post-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+#my-custom-post-form input[type="text"],
+#my-custom-post-form textarea,
+#my-custom-post-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+#my-custom-post-form input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#my-custom-post-form input[type="submit"]:hover {
+    background-color: #005177;
+}
+.notice {
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid transparent;
+    border-left: 4px solid;
+}
+.notice-success {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+    color: #3c763d;
+}
+.notice-error {
+    background-color: #f2dede;
+    border-color: #a94442;
+    color: #a94442;
+}
