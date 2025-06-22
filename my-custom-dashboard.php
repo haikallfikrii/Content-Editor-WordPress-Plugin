@@ -229,9 +229,10 @@ function my_custom_dashboard_shortcode() {
     echo '</div>';
     echo '<nav class="space-y-0.5">';
     echo '<h2 class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Website Content Editor</h2>';
-    echo '<a class="flex items-center gap-2 hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/author-endpoint/"><i class="fas fa-user text-gray-500"></i> Author Endpoint Page</a>';
+    echo '<a class="flex items-center gap-2 hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/author-endpoint-v2/"><i class="fas fa-user text-gray-500"></i> Author Endpoint Page</a>';
+    echo '<a class="flex items-center gap-2 justify-between hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/article-endpoint/"><span><i class="fas fa-file-alt text-gray-500"></i>  Article Endpoint</span><i class="fas fa-chevron-right text-[9px] text-gray-500"></i></a>';
     echo '<a class="flex items-center gap-2 hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/book-endpoint/"><i class="fas fa-book-open text-gray-500"></i> Book Endpoint Page</a>';
-    echo '<a class="flex items-center gap-2 justify-between hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/video-endpoint/"><span><i class="fab fa-youtube text-gray-500"></i> Video Endpoint Page</span><i class="fas fa-chevron-right text-[9px] text-gray-500"></i></a>';
+    echo '<a class="flex items-center gap-2 justify-between hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/video-endpoint/"><span><i class="fab fa-youtube text-gray-500"></i>  Video Endpoint Page</span><i class="fas fa-chevron-right text-[9px] text-gray-500"></i></a>';
     echo '<div><br/></div>'; // Empty div for spacing
     echo '<a class="flex items-center gap-2 hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/dashboard/"><i class="fas fa-th-large text-gray-500"></i> Dashboard</a>';
     echo '<a class="flex items-center gap-2 hover:bg-gray-50 rounded-none px-2 py-1 text-gray-700 text-[11px]" href="https://caastedu.com/dashboard/profile/"><i class="fas fa-user text-gray-500"></i> My Profile</a>';
